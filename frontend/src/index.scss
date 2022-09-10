@@ -13,11 +13,16 @@ html {
   color: #fff;
 }
 
-a,
-a:hover,
-a:visited {
-  color: unset;
-  text-decoration: none;
+a {
+  :hover {
+    color: unset;
+    text-decoration: none;
+  }
+
+  :visited {
+    color: unset;
+    text-decoration: none;
+  }
 }
 
 .dsmeta-container {
