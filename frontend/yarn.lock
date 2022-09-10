@@ -415,7 +415,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.6":
+"@types/react-dom@npm:latest":
   version: 18.0.6
   resolution: "@types/react-dom@npm:18.0.6"
   dependencies:
@@ -424,7 +424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.17":
+"@types/react@npm:*, @types/react@npm:latest":
   version: 18.0.18
   resolution: "@types/react@npm:18.0.18"
   dependencies:
@@ -977,9 +977,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frontend@workspace:."
   dependencies:
-    "@types/react": ^18.0.17
-    "@types/react-dom": ^18.0.6
+    "@types/react": latest
+    "@types/react-dom": latest
     "@vitejs/plugin-react": ^2.1.0
+    jsx-runtime: latest
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.6.4
@@ -1262,6 +1263,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsx-runtime@npm:latest":
+  version: 1.2.0
+  resolution: "jsx-runtime@npm:1.2.0"
+  dependencies:
+    object-assign: ^3.0.0
+  checksum: 6b524e67c50709edf9e43b987c8cff77fcd6c5f0226f472330572bb78ed75c2f4e538d7a8f2d47da368f01d462a0726a35eb3a80887663b97455363de500c2fa
+  languageName: node
+  linkType: hard
+
 "loose-envify@npm:^1.1.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
@@ -1496,6 +1506,13 @@ __metadata:
     gauge: ^4.0.3
     set-blocking: ^2.0.0
   checksum: ae238cd264a1c3f22091cdd9e2b106f684297d3c184f1146984ecbe18aaa86343953f26b9520dedd1b1372bc0316905b736c1932d778dbeb1fcf5a1001390e2a
+  languageName: node
+  linkType: hard
+
+"object-assign@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "object-assign@npm:3.0.0"
+  checksum: 56c66a77318aea95b11bd16a65c313e98786cea1db673a7fdd3bc92aced671b35f62a9819ad9cf7846921c773818329636cda5cd1b7c4fa0ce9908440e091dac
   languageName: node
   linkType: hard
 
