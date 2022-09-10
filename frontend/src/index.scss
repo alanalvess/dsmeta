@@ -14,11 +14,10 @@ html {
 }
 
 a {
-  :hover {
-    color: unset;
-    text-decoration: none;
-  }
+  color: unset;
+  text-decoration: none;
 
+  :hover, 
   :visited {
     color: unset;
     text-decoration: none;
