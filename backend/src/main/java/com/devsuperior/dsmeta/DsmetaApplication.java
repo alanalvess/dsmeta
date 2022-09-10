@@ -1,13 +1,13 @@
-package com.devsuperior.backend;
+package com.devsuperior.dsmeta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendApplication {
+public class DsmetaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendApplication.class, args);
+		SpringApplication.run(DsmetaApplication.class, args);
 	}
 
 }
